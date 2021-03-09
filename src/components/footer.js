@@ -24,11 +24,10 @@ export default () => {
 
         </div>
 
-        <div className="six columns right-cols">
+        <div className="six columns">
           <div className="row">
            <div className="columns">
              <FontAwesomeIcon icon={ faUsers } />
-             <h3 className="social">socialize</h3>
              <ul>
                { social.map(mySocial =>
                  <li><a href={ mySocial.url }>
@@ -40,7 +39,6 @@ export default () => {
 
           <div className="columns last">
             <FontAwesomeIcon icon={ faEnvelope } />
-             <h3 className="contact">Contact Us</h3>
              <ul>
                { contacts.map((contact, index) =>
                  <li><a href={ contact.url }>{ contact.text }</a></li>
@@ -49,6 +47,8 @@ export default () => {
           </div>
         </div>
       </div>
+
+
 
       <p className="copyright">&copy; 2021 Rellano | Tekijä Severi Kupari </p>
 

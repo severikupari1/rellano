@@ -234,7 +234,7 @@ ul.nav li.current button { color: #fff; }
    letter-spacing: 2px;
 }
 #hero .buttons .trial {
-   background: #f64b39;
+   background: #00ade5;
    margin-right: 30px;
 
    -webkit-animation-delay: 10s;
@@ -244,7 +244,7 @@ ul.nav li.current button { color: #fff; }
    -webkit-animation-iteration-count: 3;
       -moz-animation-iteration-count: 3;
 }
-#hero .buttons .trial:hover { background: #F86A5A; }
+#hero .buttons .trial:hover { background: #005ce5; }
 #hero .buttons .learn-more {}
 
 
@@ -761,8 +761,10 @@ footer .footer-logo a {
    margin-left: 3px;
 }
 footer .footer-logo a img {
-   height: 24px;
-   width: 92px;
+   height: 80px;
+   width: 240px;
+   background-color: white;
+   border-radius: 13% 0 13% 0;
 }
 
 footer .right-cols .columns {

@@ -49,8 +49,8 @@ Facebook: https://www.facebook.com/Rellano-Oy-113528363739513/`,
 
     /* Logo and text to show in footer */
     footer: {
-      logo: `/images/footer-logo.png`,
-      text: `This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.`,
+      logo: `/images/logo.png`,
+      text: ``,
     },
 
     /* Address and contact info to show in footer */

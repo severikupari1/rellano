@@ -13,16 +13,21 @@
   image: 'images/Luotettava-Kumppani-logo.jpg'
 -
   name: responsive
-  title: Fully Responsive.
-  body: Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. Quis nostrum exercitationem ullam corporis suscipit laboriosam.Our library is continually refreshed with the latest on web technology so you'll never fall behind. Quis nostrum exercitationem ullam corporis suscipit laboriosam.
-  image: 'images/feature-image-2.png'
+  title: Viisi hyvää syytä käyttää Rellanon palveluita
+  body: · Yli 20 vuoden kokemus rakentamisesta
+
+    · Luotettavuus ja rehellisyys
+
+    · Paikallisuus
+
+    · Joustavuus
+
+    · Takuu
+  image: 'images/part-2-porras-vanha-sivu.png'
 -
   name: cross-browser
-  title: Cross-Browser Compatible.
-  body: Lorem ipsum dolor sit amet, ea eum labitur scripserit, illum complectitur deterruisset at pro. Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt. Nec et amet vidisse mentitum. Cibo mutat nulla ei eam.
-  image: 'images/feature-image-3.png'
--
-  name: video
-  title: Video Support.
-  body: Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. Quis nostrum exercitationem ullam corporis suscipit laboriosam. No soleat fabulas prodesset vel, ut quo solum dicunt. Nec et amet vidisse mentitum. Cibo mutat nulla ei eam.
-  vimeo: 14592941
+  title: Lappiportaan myyntiedustus
+  body: Toimimme Lappiportaan myyntiedustajana. Saatte kauttamme paikallista ja asiantuntevaa palvelua nopeasti ja luotettavasti. Palvelemme sekä yritysasiakkaita, että yksityishenkilöitä. Vahva kokemuksemme portaista helpottaa hankintaasi.
+
+    Meidän kauttamme saatte kartoituskäynnin, tarjouksen, mittauksen ja asennuksen.
+  image: 'images/part-3-vanha-sivu.png'
