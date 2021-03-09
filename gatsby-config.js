@@ -7,21 +7,25 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Woo - Free Responsive HTML5/CSS3 Template`,
+    title: `Rellano Oy | Rakennustuotteiden asennuspalvelut`,
     author: {
-      name: `Joe Bloggs`,
+      name: `Timo Kokko`,
     },
-    description: `Woo is a clean, modern, landing page site template.`,
+    description: `Yhteystiedot Ota yhteyttä puhelimitse tai sähkopostilla, niin pääsemme nopeasti alkuun
+Puhelin: 044 511 5133
+
+Sähkoposti: timo.kokko@rellano.fi
+
+Facebook: https://www.facebook.com/Rellano-Oy-113528363739513/`,
 
     /* Choose and arrange the sections to be displayed on the landing page */
     sections: [
       `hero`,
       `features`,
-      `pricing`,
-      `call-to-action`,
+      //`pricing`,
+      //`call-to-action`,
       `screenshots`,
       `testimonials`,
-      `subscribe`
     ],
 
     /* Configure the navigation menu */
@@ -30,20 +34,13 @@ module.exports = {
       {path: 'pricing', label: 'Pricing'},
       {path: 'screenshots', label: 'Screenshots'},
       {path: 'testimonials', label: 'Testimonials'},
-      {path: 'subscribe', label: 'Subscribe'},
     ],
 
     /* Provide social media accounts. Remove or add new services. (The value 'fa' is the name of FontAwesome icon to display. Choose from here: https://fontawesome.com/cheatsheet/free/brands ) */
     social: [
       { service: `Facebook`,
-        url : `https://facebook.com/styleshout`,
+        url : `https://www.facebook.com/Rellano-Oy-113528363739513/`,
         fa: `facebook` },
-      { service: `Twitter`,
-        url : `https://twitter.com/styleshout`,
-        fa: `twitter` },
-      { service: `GitHub`,
-        url : `https://github.com/desmukh/gatsby-starter-woo`,
-        fa: `github` },
     ],
 
     /* Path to favicon and logo (located inside the 'static' folder) */
@@ -63,9 +60,8 @@ module.exports = {
       line3: `94043 US`,
     },
     contacts: [
-      { text: `647.343.8234`, url: `tel:6473438234` },
-      { text: `123.456.7890`, url: `tel:1234567890`},
-      { text: `someone@woosite.com`, url: `mailto:someone@woo.com`},
+      { text: `Puhelin`, url: `tel:0445115133` },
+      { text: `Sähköposti`, url: `timo.kokko@rellano.fi`},
     ],
   },
   plugins: [ `gatsby-plugin-anchor-links`, `gatsby-plugin-smoothscroll`, `react-scrollspy` ],

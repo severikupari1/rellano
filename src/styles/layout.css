@@ -55,7 +55,7 @@ body { background: #181d21; }
 header {
    height: 54px;
    width: 100%;
-   background: #13171B;
+   background: #266185;
    position: fixed;
    left: 0;
    top: 0;
@@ -66,23 +66,23 @@ header {
 header .logo {
    margin-left: 36px;
    margin-right: 20px;
-   margin-top: 13px;
+   margin-top: 8px;
    float: left;
    width: auto;
    z-index: 991;
-
    /* add position relative since z-index only applies to
    elements that have been given an explicit position */
    position: relative;
 }
+
 header .logo a {
-   display: block;
-   margin: 0;
-	padding: 0;
-	border: none;
-	outline: none;
-   width: 64px;
-   height: 18px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 18px;
 }
 
 /* header social */
@@ -168,7 +168,8 @@ ul.nav li.current button { color: #fff; }
 
 #hero {
    padding-top: 66px;
-   background: #23292f url(img/hero-bg.png);
+   background: #2e4585 url(img/img_1.png) no-repeat;
+   background-size: 100% 100%;
    overflow: hidden;
 }
 
@@ -178,9 +179,9 @@ ul.nav li.current button { color: #fff; }
 (min-resolution: 192dpi) {
 
 	#hero {
-		background: #23292f url(img/hero-bg_@2X.png);
-		background-size: 200px 200px;
-	}
+        background-size: 200px 200px;
+        background: #23292f url(img/img_1.png) no-repeat;
+    }
 
 }
 
@@ -188,7 +189,8 @@ ul.nav li.current button { color: #fff; }
 
 /* Hero Text */
 .hero-text {
-	color: #676e73;
+	color: #fff;
+
    width: 83%;
    text-align: center;
    margin: 54px auto 24px auto;
@@ -217,6 +219,8 @@ ul.nav li.current button { color: #fff; }
 .hero-image img {
    vertical-align: bottom;
    display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 /* Hero CTA Buttons */

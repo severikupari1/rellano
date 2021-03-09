@@ -1,8 +1,16 @@
 -
   name: design
-  title: Simple, Clean and Modern Design.
-  body: Lorem ipsum dolor sit amet, ea eum labitur scripserit, illum complectitur deterruisset at pro. Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt. Nec et amet vidisse mentitum. Cibo mutat nulla ei eam.
-  image: 'images/feature-image-1.png'
+  title: Palvelumme
+  body: · Sisäportaiden myynti ja asennus
+
+    · Kalusteiden asennus
+
+    · Ikkuna-asennukset
+
+    · Saunat
+
+    · Mittauspalvelu
+  image: 'images/Luotettava-Kumppani-logo.jpg'
 -
   name: responsive
   title: Fully Responsive.

@@ -38,7 +38,9 @@ export default () => (
         <div className={ 'row feature ' + value.name }>
           <div className={ 'six columns ' + pos }>
             <h3>{ value.title }</h3>
-            <p>{ value.body }</p>
+            <p style={{
+              whiteSpace: 'pre-line'
+            }}>{ value.body }</p>
           </div>
 
           <ScrollAnimation
