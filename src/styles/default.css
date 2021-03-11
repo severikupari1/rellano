@@ -499,8 +499,8 @@ input[type="button"] {
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;
-	padding: 12px 20px;
-	margin-bottom: 18px;
+	padding: 6px 10px;
+	margin-bottom: 8px;
    border: none;
    cursor: pointer;
    height: auto;
