@@ -29,7 +29,7 @@ export default () => {
       <Layout>
         { sections.map(section => {
           let Tagname = availableSections[section]
-          return <Tagname />
+          return <Tagname key={section}/>
         }) }
       </Layout>
     </>

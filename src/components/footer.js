@@ -6,6 +6,7 @@ import scrollTo from "gatsby-plugin-smoothscroll"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronUp, faMapMarkerAlt, faUsers, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 export default () => {
   const { social, footer, contacts } = useSiteMetadata()
@@ -27,10 +28,10 @@ export default () => {
         <div className="six columns">
           <div className="row">
            <div className="columns">
-             <FontAwesomeIcon icon={ faUsers } />
+             <FontAwesomeIcon icon={ faFacebook } />
              <ul>
                { social.map(mySocial =>
-                 <li><a href={ mySocial.url }>
+                 <li key={Math.random()} ><a  href={ mySocial.url }>
                    { mySocial.service }
                  </a></li>
                )}
@@ -41,7 +42,7 @@ export default () => {
             <FontAwesomeIcon icon={ faEnvelope } />
              <ul>
                { contacts.map((contact, index) =>
-                 <li><a href={ contact.url }>{ contact.text }</a></li>
+                 <li key={index}><a href={ contact.url }>{ contact.text }</a></li>
                )}
              </ul>
           </div>

@@ -35,7 +35,7 @@ export default () => (
       }
 
       return(
-        <div className={ 'row feature ' + value.name }>
+        <div key={index} className={ 'row feature ' + value.name }>
           <div className={ 'six columns ' + pos }>
             <h3>{ value.title }</h3>
             <p style={{

@@ -38,7 +38,7 @@ Facebook: https://www.facebook.com/Rellano-Oy-113528363739513/`,
 
     /* Provide social media accounts. Remove or add new services. (The value 'fa' is the name of FontAwesome icon to display. Choose from here: https://fontawesome.com/cheatsheet/free/brands ) */
     social: [
-      { service: `Facebook`,
+      { service: `Rellano Oy`,
         url : `https://www.facebook.com/Rellano-Oy-113528363739513/`,
         fa: `facebook` },
     ],
@@ -61,7 +61,7 @@ Facebook: https://www.facebook.com/Rellano-Oy-113528363739513/`,
     },
     contacts: [
       { text: `Puhelin`, url: `tel:0445115133` },
-      { text: `Sähköposti`, url: `timo.kokko@rellano.fi`},
+      { text: `Sähköposti`, url: `mailto:timo.kokko@rellano.fi`},
     ],
   },
   plugins: [ `gatsby-plugin-anchor-links`, `gatsby-plugin-smoothscroll`, `react-scrollspy` ],

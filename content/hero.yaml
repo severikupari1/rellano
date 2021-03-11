@@ -4,10 +4,10 @@ body: Luotettava kumppani | Rellano Oy
 
 button1:
   label: +358 44 511 5133
-  to: '/#'
+  to: 'tel:+358445115133'
 
 button2:
-  label: Learn More
-  to: '/#features'
+  label: timo.kokko@rellano.fi
+  to: 'mailto:timo.kokko@rellano.fi'
 
 image: images/hero-image.png
