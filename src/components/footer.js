@@ -50,7 +50,7 @@ export default () => {
 
 
 
-      <p className="copyright">&copy; 2021 Rellano | Tekij‰ Severi Kupari </p>
+      <p className="copyright">&copy; 2021 Rellano | Tekij√§ Severi Kupari </p>
 
       <div id="go-top">
         <button title="Back to Top" onClick={() => scrollTo('#top')}>

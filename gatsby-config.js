@@ -11,10 +11,10 @@ module.exports = {
     author: {
       name: `Timo Kokko`,
     },
-    description: `Yhteystiedot Ota yhteytt‰ puhelimitse tai s‰hkopostilla, niin p‰‰semme nopeasti alkuun
+    description: `Yhteystiedot Ota yhteytt√§ puhelimitse tai s√§hkopostilla, niin p√§√§semme nopeasti alkuun
 Puhelin: 044 511 5133
 
-S‰hkoposti: timo.kokko@rellano.fi
+S√§hkoposti: timo.kokko@rellano.fi
 
 Facebook: https://www.facebook.com/Rellano-Oy-113528363739513/`,
 
@@ -30,10 +30,10 @@ Facebook: https://www.facebook.com/Rellano-Oy-113528363739513/`,
 
     /* Configure the navigation menu */
     menuItems: [
-      {path: 'features', label: 'Features'},
-      {path: 'pricing', label: 'Pricing'},
-      {path: 'screenshots', label: 'Screenshots'},
-      {path: 'testimonials', label: 'Testimonials'},
+      {path: 'features', label: 'Palvelut'},
+      //{path: 'pricing', label: 'Pricing'},
+      {path: 'screenshots', label: 'Referenssit'},
+      {path: 'testimonials', label: 'Asiakaspalautteet'},
     ],
 
     /* Provide social media accounts. Remove or add new services. (The value 'fa' is the name of FontAwesome icon to display. Choose from here: https://fontawesome.com/cheatsheet/free/brands ) */
@@ -61,7 +61,7 @@ Facebook: https://www.facebook.com/Rellano-Oy-113528363739513/`,
     },
     contacts: [
       { text: `Puhelin`, url: `tel:0445115133` },
-      { text: `S‰hkˆposti`, url: `timo.kokko@rellano.fi`},
+      { text: `S√§hk√∂posti`, url: `timo.kokko@rellano.fi`},
     ],
   },
   plugins: [ `gatsby-plugin-anchor-links`, `gatsby-plugin-smoothscroll`, `react-scrollspy` ],

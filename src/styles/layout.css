@@ -168,8 +168,11 @@ ul.nav li.current button { color: #fff; }
 
 #hero {
    padding-top: 66px;
-   background: #2e4585 url(img/img_1.png) no-repeat;
-   background-size: 100% 100%;
+   background: #23292f url(img/img_1.png) no-repeat center;
+    width: 100% !important;
+    background-size: contain;
+    height: 100%;
+    min-height: 200px;
    overflow: hidden;
 }
 
@@ -179,8 +182,11 @@ ul.nav li.current button { color: #fff; }
 (min-resolution: 192dpi) {
 
 	#hero {
-        background-size: 200px 200px;
-        background: #23292f url(img/img_1.png) no-repeat;
+        background: #23292f url(img/img_1.png) no-repeat center;
+        width: 100% !important;
+        background-size: contain;
+        height: 100%;
+        min-height: 200px;
     }
 
 }

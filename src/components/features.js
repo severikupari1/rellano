@@ -1,7 +1,7 @@
 import React from "react"
 import ScrollAnimation from 'react-animate-on-scroll'
 import content from "../../content/features.yaml"
-
+const utf8 = require('utf8');
 export default () => (
 
   <section id='features'>
