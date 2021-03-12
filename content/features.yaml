@@ -27,7 +27,6 @@
 -
   name: cross-browser
   title: Lappiportaan myyntiedustus
-  body: Toimimme Lappiportaan myyntiedustajana. Saatte kauttamme paikallista ja asiantuntevaa palvelua nopeasti ja luotettavasti. Palvelemme sekä yritysasiakkaita, että yksityishenkilöitä. Vahva kokemuksemme portaista helpottaa hankintaasi.
-
-    Meidän kauttamme saatte kartoituskäynnin, tarjouksen, mittauksen ja asennuksen.
+  body: Toimimme Lappiportaan myyntiedustajana. Saatte kauttamme paikallista ja asiantuntevaa palvelua nopeasti ja luotettavasti. Palvelemme sekä yritysasiakkaita, että yksityishenkilöitä. Vahva kokemuksemme portaista helpottaa hankintaasi. Meidän kauttamme saatte kartoituskäynnin, tarjouksen, mittauksen ja asennuksen.
   image: 'images/part-3-vanha-sivu.png'
+  anchor: 'lappiporras'

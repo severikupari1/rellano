@@ -32,8 +32,9 @@ Facebook: https://www.facebook.com/Rellano-Oy-113528363739513/`,
     menuItems: [
       {path: 'features', label: 'Palvelut'},
       //{path: 'pricing', label: 'Pricing'},
-      {path: 'screenshots', label: 'Referenssit'},
-      {path: 'testimonials', label: 'Asiakaspalautteet'},
+        {path: 'lappiporras', label: 'Lappiporras'},
+        {path: 'screenshots', label: 'Referenssit'},
+        {path: 'testimonials', label: 'Asiakaskokemuksia'},
     ],
 
     /* Provide social media accounts. Remove or add new services. (The value 'fa' is the name of FontAwesome icon to display. Choose from here: https://fontawesome.com/cheatsheet/free/brands ) */
@@ -60,8 +61,8 @@ Facebook: https://www.facebook.com/Rellano-Oy-113528363739513/`,
       line3: `94043 US`,
     },
     contacts: [
-      { text: `Puhelin`, url: `tel:0445115133` },
-      { text: `Sähköposti`, url: `mailto:timo.kokko@rellano.fi`},
+      { text: `Puhelinnumero +358 44 511 5133`, url: `tel:0445115133` },
+      { text: `Sähköposti timo.kokko@rellano.fi`, url: `mailto:timo.kokko@rellano.fi`},
     ],
   },
   plugins: [ `gatsby-plugin-anchor-links`, `gatsby-plugin-smoothscroll`, `react-scrollspy` ],

@@ -43,7 +43,7 @@ const MySlider = () =>{
               <div key={index}>
                 <blockquote>
                   <p>{ quote.text }</p>
-                  <cite>{ quote.cite }</cite>
+                  {/*<cite>{ quote.cite }</cite>*/}
                 </blockquote>
               </div>
             ))}

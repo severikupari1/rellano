@@ -21,7 +21,7 @@ export default () => {
             </AnchorLink>
           </div>
 
-          <p>{ footer.text }</p>
+          <p className={"text-white"}>{ footer.text }</p>
 
         </div>
 
@@ -31,7 +31,9 @@ export default () => {
              <FontAwesomeIcon icon={ faFacebook } />
              <ul>
                { social.map(mySocial =>
-                 <li key={Math.random()} ><a  href={ mySocial.url }>
+                 <li key={Math.random()} ><a className={"text-white"} style={{
+                     color: '#d5d5d5'
+                 }} href={ mySocial.url }>
                    { mySocial.service }
                  </a></li>
                )}
@@ -42,16 +44,14 @@ export default () => {
             <FontAwesomeIcon icon={ faEnvelope } />
              <ul>
                { contacts.map((contact, index) =>
-                 <li key={index}><a href={ contact.url }>{ contact.text }</a></li>
+                 <li key={index}><a className={"text-white"} href={ contact.url }>{ contact.text }</a></li>
                )}
              </ul>
           </div>
         </div>
       </div>
 
-
-
-      <p className="copyright">&copy; 2021 Rellano | Tekijä Severi Kupari </p>
+      <p className="copyright text-white">&copy; 2021 Rellano | Tekijä Severi Kupari </p>
 
       <div id="go-top">
         <button title="Back to Top" onClick={() => scrollTo('#top')}>
